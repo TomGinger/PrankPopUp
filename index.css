@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.container{
+    width: 570px;
+    margin: 0 auto;
+
+}
+
+/* Underlines */
+
+.underline-on-top{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.underline-on-bottom{
+    padding-top: 10px;
+    
+}
+
+
+/* Typography */
+
+
+.color-text{
+    color: #80b918;
+    font-weight: bold;
+    display: block;
+    font-size: 45px;
+    border-left: 2px solid #80b918;
+    border-right: 2px solid #80b918;
+    padding-top: 15px;
+}
+
+
+h1,
+h2{
+    font-weight: lighter;
+}
+
+
+h1{
+    font-size: 45px;
+}
+
+
+/* Services */
+
+ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+li{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #80b918;
+    border-radius: 6px;
+}
+
+/* Images */
+
+.aventador{
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* About us */
+
+.about-us{
+    padding-top: 35px;
+    text-align: left;
+}
+
+
+/* Pop Up  */
+
+.pop-up{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    background-color: whitesmoke;
+    color: #282828;
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 2px whitesmoke;
+}
+
+
+.pop-up-container{
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+form{
+    padding-top: 20px;
+}
+
+input{
+    border: 1px solid #282828;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 2px;
+}
+
+/* Pop Up Buttons */
+
+.pop-up-btn{
+    padding: 8px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: #282828;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+.btn-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.close-btn-container{
+    text-align: right;
+    margin-bottom: -15px;
+    
+}
+
+.close-btn{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #282828;
+    border: 1px solid transparent;
+}
+
+
+.close-btn:hover,
+.close-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+.close-btn:disabled{
+    color: #282828;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/* Pop Up Design */
+
+.laugh-gif{
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 2px #282828;
+}
+
+.loading{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.data-name{
+    color: #80b918;
+}
